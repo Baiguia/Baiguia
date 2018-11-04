@@ -1,0 +1,11 @@
+F:\VS11-2\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\EntityFramework.dll
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\EntityFramework.xml
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+F:\Baiguia\VS\11.4\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
