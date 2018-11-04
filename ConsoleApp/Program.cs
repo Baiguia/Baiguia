@@ -14,8 +14,25 @@ namespace ConsoleApp
 
             //.where .orderby .tolist()注意调用的顺序
             var context = new CourseDBEntities();
-            var departments = context.Departments.Where(x=>x.Name.Contains("艺术")).OrderBy(x => x.SortCode).ToList();
+            var departments = context.Departments.OrderBy(x => x.SortCode).ToList();
+            foreach (var d in departments)
+                Console.WriteLine("编号{0},部门名称{1},说明{2}", d.SortCode, d.Name, d.Dscn);
 
+            //添加一条记录
+            var newDepartment = new Departments
+            {
+                ID = Guid.NewGuid(),
+                Name = "环境食品学院",
+                Dscn = "环境食品",
+                SortCode="007"
+            };
+            //把新的对象添加到上下文中
+            context.Departments.Add(newDepartment);
+            //更新上下文 把新的实体保存扫数据库中
+            context.SaveChanges();
+
+            //显示新的记录
+            var departments1 = context.Departments.OrderBy(x => x.SortCode).ToList();
             foreach (var d in departments)
                 Console.WriteLine("编号{0},部门名称{1},说明{2}", d.SortCode, d.Name, d.Dscn);
 
