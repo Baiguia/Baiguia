@@ -19,6 +19,7 @@ namespace ConsoleApp
                 Console.WriteLine("编号{0},部门名称{1},说明{2}", d.SortCode, d.Name, d.Dscn);
 
             Console.ReadKey();
+
         }
     }
 }
