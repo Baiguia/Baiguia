@@ -46,7 +46,7 @@ namespace ConsoleApp
                     ID = Guid.NewGuid(),
                     Name = "测试学院",
                     Dscn = "不可描述",
-                    SortCode = "999"
+                    SortCode = "000"
                 };
                 context.Departments.Add(newDept);
                 context.SaveChanges();
