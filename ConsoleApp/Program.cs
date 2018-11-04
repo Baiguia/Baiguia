@@ -14,6 +14,7 @@ namespace ConsoleApp
 
             //.where .orderby .tolist()注意调用的顺序
             var context = new CourseDBEntities();
+            
             var departments = context.Departments.OrderBy(x => x.SortCode).ToList();
             foreach (var d in departments)
                 Console.WriteLine("编号{0},部门名称{1},说明{2}", d.SortCode, d.Name, d.Dscn);
@@ -43,6 +44,7 @@ namespace ConsoleApp
             editDepartment.Name = "环境食品";
             editDepartment.SortCode = "007";
             context.SaveChanges();
+        
 
             else
             Console.WriteLine("未找到该数据，不能修改");
