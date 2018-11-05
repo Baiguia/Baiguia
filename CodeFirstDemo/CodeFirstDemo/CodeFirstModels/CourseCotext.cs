@@ -16,10 +16,7 @@ namespace CodeFirstDemo.CodeFirstModels
         public DbSet<Course> Courses { get; set; }
         public DbSet<Student> Student { get; set; }
 
-        //protected override void OnModelCreating(DbModelBuilder modelBulider)
-        //{
-        //    Database.SetInitializer<CourseCotext>(new CourseInitialize());
-        //}
+        
     }
     ////每次运行时都生成一个新的数据库
     //public class CourseInitialize:DropCreateDatabaseIfModelChanges<CourseCotext>
