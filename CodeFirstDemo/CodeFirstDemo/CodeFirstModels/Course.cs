@@ -16,6 +16,8 @@ namespace CodeFirstDemo.CodeFirstModels
         public string Title { get; set; }
         //学分
         public int Credit { get; set; }
+        public string CourseCode { get; set; }
+        public int StudyPeriod { get; set; } = 0;
         //外键实体 用自定义的类作为属性
         public virtual Department Department { get; set; }
 
