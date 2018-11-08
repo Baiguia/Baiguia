@@ -14,10 +14,13 @@ namespace CodeFirstDemo.Migrations
 
         protected override void Seed(CodeFirstDemo.CodeFirstModels.CourseCotext context)
         {
-            //  This method will be called after migrating to the latest version.
+            //context.Database.ExecuteSqlCommand("delete courses");
+            //context.Database.ExecuteSqlCommand("delete students");
+            //context.Database.ExecuteSqlCommand("delete departments");
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            //DepartmentSeed.Seed(context);
+            //CourseSeed.Seed(context);
+            StudentSeed.Seed(context);     
         }
     }
 }
